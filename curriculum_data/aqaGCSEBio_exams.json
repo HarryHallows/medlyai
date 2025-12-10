@@ -1,0 +1,1311 @@
+[
+  {
+    "board_title": "aqa",
+    "qualification": "GCSE",
+    "subject_title": "Biology",
+    "subject_id": "aqaGCSEBio",
+    "type": "Medly",
+    "series": "Sept_Mock",
+    "papers": [
+      {
+        "paper_id": "medlymockaqaGCSEBio_Sept_Mock1Higher",
+        "tier": "Higher",
+        "paper": "1",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_stem": "A pharmaceutical company is developing a new antiviral drug, ‘Virostop’, to treat a new strain of influenza.\n\n**Table 1** below shows data about the number of potential drug compounds tested during the development process.",
+            "question_stem_diagram": "\n\n**Table 1**\n\n| Stage of Development | Number of Compounds Entering Stage | Number of Compounds Failing Stage | Main Reason for Failure |\n|---|---|---|---|\n| Preclinical testing | 8000 | 7980 | High toxicity to animal cells |\n| Clinical trial - Phase 1 | 20 | 12 | Unacceptable side effects in healthy volunteers |\n| Clinical trial - Phase 2 | 8 | 5 | Drug was not effective at treating the virus |\n| Clinical trial - Phase 3 | 3 | 2 | Drug was less effective than existing treatments |",
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "What is the main reason that compounds failed during the Phase 2 clinical trials?",
+                "markmax": 1,
+                "markscheme": "drug was not effective (at treating the virus)\nallow it did not work",
+                "difficulty": 3,
+                "lessonIDs": [
+                  "aqaGCSEBio2.0.12",
+                  "aqaGCSEBio2.0.13",
+                  "aqaGCSEBio2.0.14"
+                ],
+                "questionID": "aqaGCSEBio_1_1_1_EBc0BgD11T"
+              },
+              {
+                "question_part": 2,
+                "question_type": "calculate",
+                "question_text": "Calculate the percentage of compounds that entered preclinical testing and were successful. \n\nOne compound was successful. \n\nGive your answer to two significant figures. Show your working.",
+                "markmax": 2,
+                "markscheme": "$(1 \\div 8000) \\times 100$ (1)\n0.013 (%) (1)\nallow 0.0125 (%) for 1 mark",
+                "difficulty": 5,
+                "lessonIDs": [
+                  "aqaGCSEBio0.2.7",
+                  "aqaGCSEBio2.0.12",
+                  "aqaGCSEBio2.0.14"
+                ],
+                "questionID": "aqaGCSEBio_1_1_2_UzkAhNy7ZM"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "In clinical trials, some volunteer patients are given a placebo. \n\nDefine what is meant by a placebo.",
+                "markmax": 1,
+                "markscheme": "a substance / pill with no active drug / medicine in it\nallow a fake / dummy pill",
+                "difficulty": 2,
+                "lessonIDs": [
+                  "aqaGCSEBio2.0.14"
+                ],
+                "questionID": "aqaGCSEBio_1_1_3_sDYbfk7txs"
+              },
+              {
+                "question_part": 4,
+                "question_type": "long_answer",
+                "question_text": "Suggest one reason why it is important to use a placebo in drug trials.",
+                "markmax": 1,
+                "markscheme": "to act as a control / for comparison\nOR\nto check for the placebo effect / psychological effect\nOR\nto see if the drug has a greater effect than no treatment\nignore to make it a fair test",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio2.0.14"
+                ],
+                "questionID": "aqaGCSEBio_1_1_4_z7ttK093HL"
+              },
+              {
+                "question_part": 5,
+                "question_type": "long_answer",
+                "question_text": "Phase 3 trials are often 'double-blind'. \n\nDescribe what is meant by a double-blind trial.",
+                "markmax": 2,
+                "markscheme": "neither the doctors / scientists nor the patients know (who has the drug/placebo) (1)\n(this is) to prevent bias (1)",
+                "difficulty": 5,
+                "lessonIDs": [
+                  "aqaGCSEBio2.0.12",
+                  "aqaGCSEBio2.0.14"
+                ],
+                "questionID": "aqaGCSEBio_1_1_5_54QKJNfT5B"
+              },
+              {
+                "question_part": 6,
+                "question_type": "long_answer",
+                "question_text": "A journalist wrote: ‘The high cost of new medicines is mainly due to the very high failure rate of potential drugs.’\n\nSuggest how information from **Table 1** supports this statement.",
+                "markmax": 1,
+                "markscheme": "Very large number / 7999 of compounds fail (for every 1 that succeeds)\nOR\nonly 1 out of 8000 compounds was successful",
+                "difficulty": 6,
+                "lessonIDs": [
+                  "aqaGCSEBio2.0.12",
+                  "aqaGCSEBio2.0.13",
+                  "aqaGCSEBio2.0.14",
+                  "aqaGCSEBio5.2.14"
+                ],
+                "questionID": "aqaGCSEBio_1_1_6_7AuUr0RWcx"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "The question is syllabus-appropriate, with good ramping of cognitive demand for higher-tier.",
+            "question_id": "aqaGCSEBio_1_1_jvJIpxZhci"
+          },
+          {
+            "question_number": 2,
+            "question_stem": "A professional free-diver performs a timed dive. Scientists record physiological data before the dive and immediately after the diver resurfaces.\n\n\n**Table 2** shows some of the data collected.\n\n\n**Table 2**\n\n\n| Parameter                               | Before Dive (at rest) | Immediately After Resurfacing |\n|-----------------------------------------|-----------------------:|------------------------------:|\n| Blood pH                                |                   7.4  |                           7.1 |\n| Muscle Glycogen concentration (arb. u.) |                    85  |                            45 |\n| Blood Lactate concentration (mmol/dm³)  |                   1.2  |                          14.2 |\n| Breathing Rate (breaths per minute)     |                    12  |                            48 |\n\n\n",
+            "question_stem_diagram": null,
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "Explain why the diver's breathing rate remains high for several minutes after resurfacing. Use information from **Table 2**.",
+                "markmax": 3,
+                "markscheme": "•(anaerobic respiration produces) lactic acid/lactate (1)\n\n•(extra) oxygen is needed to break down the lactic acid (1)\n\n•Repay oxygen debt (1)",
+                "difficulty": 3,
+                "lessonIDs": [
+                  "aqaGCSEBio3.1.6",
+                  "aqaGCSEBio3.1.7"
+                ],
+                "questionID": "aqaGCSEBio_1_2_1_CxYmNonmRy"
+              },
+              {
+                "question_part": 2,
+                "question_type": "calculate",
+                "question_text": "Calculate the percentage decrease in the diver's muscle glycogen concentration. Show your working.",
+                "markmax": 2,
+                "markscheme": "(decrease =) 85 - 45 (= 40) (1)\n\n(40 / 85 x 100 =) 47.1 (%) (1)\n\nallow 47 (%)\nallow correct answer for 2 marks, even without working",
+                "difficulty": 2,
+                "lessonIDs": [
+                  "aqaGCSEBio0.2.7",
+                  "aqaGCSEBio3.1.9",
+                  "aqaGCSEBio4.2.3",
+                  "aqaGCSEBio3.1.7"
+                ],
+                "questionID": "aqaGCSEBio_1_2_2_CzConyRFZc"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "Give two pieces of evidence from **Table 2** that suggest the diver's muscle cells respired anaerobically.",
+                "markmax": 2,
+                "markscheme": "Any two from:\n• blood lactate / lactic acid increases (from 1.2 to 14.2) (1)\n• muscle glycogen decreases (showing glucose has been used up for respiration) (1)\n• blood pH decreases / blood becomes more acidic (1)",
+                "difficulty": 5,
+                "lessonIDs": [
+                  "aqaGCSEBio3.1.2",
+                  "aqaGCSEBio3.1.4",
+                  "aqaGCSEBio3.1.6",
+                  "aqaGCSEBio3.1.7"
+                ],
+                "questionID": "aqaGCSEBio_1_2_3_0xW1CO63jH"
+              },
+              {
+                "question_type": "long_answer",
+                "question_text": "Lactic acid produced during the dive can cause muscle fatigue. Suggest one reason why the decrease in blood pH is dangerous for the diver.",
+                "markmax": 1,
+                "markscheme": "(low pH / high acidity) denatures enzymes (1)\n\nallow (this) slows down / stops metabolic reactions\nallow named examples of metabolic reactions",
+                "lessonIDs": [
+                  "aqaGCSEBio1.1.1",
+                  "aqaGCSEBio4.0.0",
+                  "aqaGCSEBio3.1.7",
+                  "aqaGCSEBio1.1.2"
+                ],
+                "question_part": 4,
+                "questionID": "aqaGCSEBio_1_2_4_NELiyfw35w"
+              },
+              {
+                "question_type": "long_answer",
+                "question_text": "What is the word equation for anaerobic respiration in muscle cells?",
+                "markmax": 1,
+                "markscheme": "glucose $\\rightarrow$ lactic acid (1)\n\nallow lactate\nignore (+ little energy)",
+                "lessonIDs": [
+                  "aqaGCSEBio3.1.4",
+                  "aqaGCSEBio3.1.2",
+                  "aqaGCSEBio3.1.7"
+                ],
+                "question_part": 5,
+                "questionID": "aqaGCSEBio_1_2_5_xY9sz1kW0O"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "Appropriately assesses syllabus content with suitable cognitive demand and clarity for higher tier.",
+            "question_id": "aqaGCSEBio_1_2_Ewt8AElv3E"
+          },
+          {
+            "question_number": 3,
+            "question_stem": "A commercial grower uses large greenhouses to grow tomatoes. \n\nTo maximise the growth rate of the tomato plants, the grower can increase the concentration of carbon dioxide inside the greenhouses. However, carbon dioxide is costly.\n\nThe grower wants to find the most cost-effective concentration of carbon dioxide to use. \nThey decide to use pondweed in a model system to investigate the effect of carbon dioxide concentration on the rate of photosynthesis.",
+            "question_stem_diagram": null,
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "In this question you will be assessed on using good English, organising information clearly and using specialist terms where appropriate.\n\nDescribe a method to investigate the effect of carbon dioxide concentration on the rate of photosynthesis.\n\nYou should include details of:\n• how you would set up the apparatus and the materials you would use\n• the measurements you would make\n• how you could make this a fair test.",
+                "markmax": 6,
+                "markscheme": "Marks awarded for this answer will be determined by the Quality of Written Communication (QWC) as well as the standard of the scientific response. Examiners should apply a ‘best-fit’ approach to the marking.\n\n**0 marks**\nNo relevant content.\n\n**Level 1 (1–2 marks)**\nA partial description of a method. A few steps are attempted, but the description is unclear or lacks detail. May identify the independent variable ($CO_2$) or dependent variable (bubbles/gas) or a single control variable.\n\n**Level 2 (3–4 marks)**\nA description of a method with some logical steps. Describes how to vary the $CO_2$ concentration (e.g. using sodium hydrogencarbonate) AND how to measure the rate of photosynthesis. At least one variable is identified as needing to be controlled.\n\n**Level 3 (5–6 marks)**\nA clear, logical, and detailed description of a method. It explains how the $CO_2$ concentration will be varied systematically, how the rate will be measured accurately, and how key variables will be controlled to ensure a fair test. For full marks, the method must be fully repeatable and include specific details on controlling both temperature and light intensity.\n\n**Examples of biology points made in the response:**\n• **Apparatus set up:** place a piece of pondweed in a beaker of water / sodium hydrogencarbonate solution.\n• **Varying the independent variable:** use different concentrations / masses of sodium hydrogencarbonate (e.g. 0.2 g, 0.4 g etc.) in a fixed volume of water.\n• **Controlling variables:**\n    – **Temperature:** use a thermostatically controlled water bath or a heat shield between the lamp and beaker and monitor with a thermometer.\n    – **Light intensity:** place an LED lamp a fixed distance from the beaker.\n    – **Plant:** use the same piece of pondweed for each test, or sprigs of the same length/mass.\n• **Procedure:** leave the pondweed for a period of time (e.g. 5 minutes) to acclimatise to the new conditions before taking measurements.\n• **Measuring dependent variable:** count the number of bubbles produced in a set time (e.g. 1 minute) OR collect the gas produced in an inverted measuring cylinder / gas syringe and measure the volume over a set time (e.g. 10 minutes).\n• **Rate calculation:** rate of photosynthesis = volume of gas produced / time taken.\n• **Reliability:** repeat the experiment at least three times for each concentration and calculate a mean.",
+                "difficulty": 8,
+                "lessonIDs": [
+                  "aqaGCSEBio3.0.0",
+                  "aqaGCSEBio3.0.2",
+                  "aqaGCSEBio3.0.3",
+                  "aqaGCSEBio3.0.4",
+                  "aqaGCSEBio3.0.8"
+                ],
+                "questionID": "aqaGCSEBio_1_3_1_VdzXVWvwbl"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "Appropriate topic, cognitive demand, and mark allocation for Higher Tier GCSE Biology.",
+            "question_id": "aqaGCSEBio_1_3_uu729HnzKF"
+          },
+          {
+            "question_number": 4,
+            "question_stem": "A student investigated the effectiveness of two different brands of mouthwash, A and B, as antiseptics. The student used an agar plate containing a culture of bacteria and the disc diffusion method.\n\n\nThe results are shown in **Table 3** below. \n\n\n",
+            "question_stem_diagram": {
+              "required": true,
+              "items": [
+                {
+                  "description": "Uploaded PNG diagram: Screenshot 2025-09-12 at 12.16.14 pm.png",
+                  "method": "manual_upload",
+                  "attempts": [
+                    {
+                      "attempt_number": 1,
+                      "latex_code": null,
+                      "success": true,
+                      "svg": null,
+                      "png_path": "![](https://firebasestorage.googleapis.com/v0/b/content-aaa73.firebasestorage.app/o/diagram_replacements%2Fquestion_stem_diagram_1757675784547_1757675784877_Screenshot%202025-09-12%20at%2012.16.14%C3%A2%C2%80%C2%AFpm.png?alt=media&token=81a09cff-0442-47a6-830e-a2b0f343e23a)",
+                      "error_message": null,
+                      "retry_count": 0,
+                      "missing_content": [],
+                      "llm_rank": 1,
+                      "llm_feedback": null,
+                      "requires_intervention": null
+                    }
+                  ],
+                  "final": {
+                    "png_path": "![](https://firebasestorage.googleapis.com/v0/b/content-aaa73.firebasestorage.app/o/diagram_replacements%2Fquestion_stem_diagram_1757675784547_1757675784877_Screenshot%202025-09-12%20at%2012.16.14%C3%A2%C2%80%C2%AFpm.png?alt=media&token=81a09cff-0442-47a6-830e-a2b0f343e23a)"
+                  }
+                }
+              ]
+            },
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "Using the data from **Table 3**, compare the effectiveness of Mouthwash A and Mouthwash B. Give a reason for your answer.",
+                "markmax": 2,
+                "markscheme": "• (Conclusion) Mouthwash A is more effective (than Mouthwash B) (1)\n• (Reason) It has a larger clear zone / zone of inhibition (1)\n   allow it killed more bacteria",
+                "difficulty": 5,
+                "lessonIDs": [
+                  "aqaGCSEBio0.0.17",
+                  "aqaGCSEBio0.0.19",
+                  "aqaGCSEBio0.0.20"
+                ],
+                "questionID": "aqaGCSEBio_1_4_1_Va86pvxdoo"
+              },
+              {
+                "question_part": 2,
+                "question_type": "long_answer",
+                "question_text": "The development of new antimicrobial substances, such as those found in the mouthwashes, is very important. \n\nSuggest one reason why.",
+                "markmax": 1,
+                "markscheme": "• To combat/replace antibiotics that bacteria are now resistant to / antibiotic resistance is increasing (1)\nallow some antibiotics no longer work",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio2.0.11",
+                  "aqaGCSEBio5.2.13",
+                  "aqaGCSEBio5.2.14"
+                ],
+                "questionID": "aqaGCSEBio_1_4_2_bVP6ObfTAh"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "The mouthwashes kill bacteria, which are a type of pathogen. \nDefine what is meant by the term ‘pathogen’.",
+                "markmax": 1,
+                "markscheme": "• a microorganism / microbe that causes (infectious) disease (1)\n   allow bacteria / virus / fungus that causes disease",
+                "difficulty": 2,
+                "lessonIDs": [
+                  "aqaGCSEBio2.0.0"
+                ],
+                "questionID": "aqaGCSEBio_1_4_3_rqWb6oeQRK"
+              },
+              {
+                "question_part": 4,
+                "question_type": "long_answer",
+                "question_text": "The student incubated the plate at 25 °C and not at 37°C. \n\n\nExplain why. \n\n",
+                "markmax": 1,
+                "markscheme": "• To prevent / reduce the growth of pathogens (harmful to humans) (1)\n   allow to reduce the risk to health\n   ignore 'to stop pathogens growing'",
+                "difficulty": 6,
+                "lessonIDs": [
+                  "aqaGCSEBio0.0.18",
+                  "aqaGCSEBio2.0.0",
+                  "aqaGCSEBio0.0.16"
+                ],
+                "questionID": "aqaGCSEBio_1_4_4_59Bt97Z0ij"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "Question appropriately targets required practical knowledge and infection/response topics for this level.",
+            "question_id": "aqaGCSEBio_1_4_vNb8SKjT1K"
+          },
+          {
+            "question_number": 5,
+            "question_stem": "Biological washing powders contain enzymes to break down common stains. \nThis allows them to be effective at lower temperatures than non-biological powders.",
+            "question_stem_diagram": "",
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "Biological washing powders contain enzymes.\n\nSuggest two advantages of using biological washing powders to clean clothes, compared to using non-biological powders at high temperatures.",
+                "markmax": 2,
+                "markscheme": "any two from:\n• saves energy / electricity (1)\n• saves money / lower cost (1)\n• better for the environment / less pollution from power stations (1)\n• lower temperatures are less likely to damage / shrink delicate fabrics (1)\n• lower temperatures are less likely to cause colours to run / fade (1)",
+                "difficulty": 6,
+                "lessonIDs": [
+                  "aqaGCSEBio1.1.1",
+                  "aqaGCSEBio1.1.2",
+                  "aqaGCSEBio1.1.3",
+                  "aqaGCSEBio1.1.4"
+                ],
+                "questionID": "aqaGCSEBio_1_5_1_Xf9nwo0MBh"
+              },
+              {
+                "question_part": 2,
+                "question_type": "mcq",
+                "question_text": "A common stain on clothing is from fatty foods like butter or oil.\n\nWhich type of enzyme would be needed to break down this type of stain?",
+                "markmax": 1,
+                "markscheme": "C - Lipase (1)",
+                "difficulty": 5,
+                "lessonIDs": [
+                  "aqaGCSEBio1.1.3",
+                  "aqaGCSEBio1.1.4",
+                  "aqaGCSEBio1.1.5"
+                ],
+                "options": [
+                  "Amylase",
+                  "Carbohydrase",
+                  "Lipase",
+                  "Protease"
+                ],
+                "correct_answer_index": 2,
+                "questionID": "aqaGCSEBio_1_5_2_FJyMwCpzv2"
+              },
+              {
+                "question_type": "long_answer",
+                "question_text": "Explain, in terms of the lock and key theory, how an enzyme breaks down a specific substrate.",
+                "markmax": 2,
+                "markscheme": "• substrate fits into active site (1)\n\n• because the shape is complementary / specific (1)\n\n• allow lock and key description for 2nd mark\n• ignore enzyme fits into substrate",
+                "lessonIDs": [
+                  "aqaGCSEBio1.1.2",
+                  "aqaGCSEBio1.1.3",
+                  "aqaGCSEBio1.1.4"
+                ],
+                "question_part": 3,
+                "questionID": "aqaGCSEBio_1_5_3_bL1ASfNtA0"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "Question tests core ecology concepts with appropriate higher-tier cognitive demand.",
+            "question_id": "aqaGCSEBio_1_5_Khtn3CJirF"
+          },
+          {
+            "question_number": 6,
+            "question_stem": "A leaf is an organ adapted for photosynthesis.",
+            "question_stem_diagram": null,
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "mcq",
+                "question_text": "What is the main carbohydrate transported away from the leaf after photosynthesis?",
+                "markmax": 1,
+                "markscheme": "D - Sucrose (1)",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio1.2.2",
+                  "aqaGCSEBio1.2.5",
+                  "aqaGCSEBio3.0.7"
+                ],
+                "options": [
+                  "Cellulose",
+                  "Glucose",
+                  "Starch",
+                  "Sucrose"
+                ],
+                "correct_answer_index": 3,
+                "questionID": "aqaGCSEBio_1_6_1_tff41pl045"
+              },
+              {
+                "question_part": 2,
+                "question_type": "long_answer",
+                "question_text": "Gases, such as carbon dioxide, enter the leaf from the atmosphere.\n\nDescribe two ways the structure of a leaf is adapted for efficient gas exchange.",
+                "markmax": 2,
+                "markscheme": "any two from:\n• stomata to allow gases (CO2) to diffuse into the leaf (1)\n• air spaces in the spongy mesophyll to provide a large surface area for gas exchange (1)\n• thin shape to provide a short diffusion distance for gases (1)",
+                "difficulty": 5,
+                "lessonIDs": [
+                  "aqaGCSEBio0.2.4",
+                  "aqaGCSEBio0.2.5",
+                  "aqaGCSEBio1.2.0",
+                  "aqaGCSEBio1.2.1",
+                  "aqaGCSEBio1.2.7"
+                ],
+                "questionID": "aqaGCSEBio_1_6_2_u00YaFgRrv"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "The palisade mesophyll is the main site of photosynthesis.\n\nExplain how cells in the palisade mesophyll tissue are adapted for photosynthesis.",
+                "markmax": 3,
+                "markscheme": "any three from:\n• are located near the top of the leaf to absorb maximum light (1)\n• are packed with many chloroplasts to maximise light absorption (1)\n• chloroplasts contain chlorophyll to absorb light for photosynthesis (1)\n• are column-shaped / elongated so more cells can be packed in at the top of the leaf (1)",
+                "difficulty": 7,
+                "lessonIDs": [
+                  "aqaGCSEBio1.2.0",
+                  "aqaGCSEBio0.0.4",
+                  "aqaGCSEBio1.2.1",
+                  "aqaGCSEBio0.0.9",
+                  "aqaGCSEBio3.0.2",
+                  "aqaGCSEBio0.0.3",
+                  "aqaGCSEBio7.0.0"
+                ],
+                "questionID": "aqaGCSEBio_1_6_3_6xdbHvlrpA"
+              },
+              {
+                "question_type": "long_answer",
+                "question_text": "The carbohydrate produced in photosynthesis is transported to other parts of the plant for storage or respiration.\n\nName the tissue that transports this carbohydrate.",
+                "markmax": 1,
+                "markscheme": "phloem (1)\n\nallow sieve tubes / sieve tube elements",
+                "lessonIDs": [
+                  "aqaGCSEBio1.2.5",
+                  "aqaGCSEBio1.2.2",
+                  "aqaGCSEBio1.2.0",
+                  "aqaGCSEBio1.2.1"
+                ],
+                "question_part": 4,
+                "questionID": "aqaGCSEBio_1_6_4_f6mZfLcTen"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "The question is syllabus-appropriate, with excellent ramping of cognitive demand for higher.",
+            "question_id": "aqaGCSEBio_1_6_A5pSU0Wz1f"
+          },
+          {
+            "question_number": 7,
+            "question_stem": "Populations of bacteria can evolve to become resistant to antibiotics.",
+            "question_stem_diagram": "",
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "Describe how a population of bacteria can become resistant to an antibiotic.",
+                "markmax": 3,
+                "markscheme": "any three from:\n• (random) mutation occurs / variation in population (1)\n• (some) bacteria are resistant to the antibiotic (1)\n• non-resistant bacteria are killed (by the antibiotic) (1)\n• resistant bacteria survive and reproduce (1)\n• passing on the gene/allele for resistance (1)",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio5.2.13",
+                  "aqaGCSEBio5.1.1",
+                  "aqaGCSEBio5.2.9",
+                  "aqaGCSEBio5.2.0",
+                  "aqaGCSEBio2.0.11"
+                ],
+                "questionID": "aqaGCSEBio_1_7_1_aV0Wn63rxV"
+              },
+              {
+                "question_part": 2,
+                "question_type": "long_answer",
+                "question_text": "Suggest one reason why the evolution of antibiotic resistance is a major concern for doctors.",
+                "markmax": 1,
+                "markscheme": "infections / diseases are harder to treat (1)\n\nallow new antibiotics need to be developed\nallow could lead to epidemics / death",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio2.0.11",
+                  "aqaGCSEBio5.2.13",
+                  "aqaGCSEBio5.2.14"
+                ],
+                "questionID": "aqaGCSEBio_1_7_2_9zznwBx7hC"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "Give two reasons why Darwin's theory of evolution by natural selection was only gradually accepted.",
+                "markmax": 2,
+                "markscheme": "any two from:\n• challenged the idea that God is the creator of life (1)\n• insufficient evidence / fossils (1)\n• mechanism of inheritance / variation was not yet known (1)\n• other competing theories were more accepted (1)\n\nallow genes / DNA not yet discovered\nallow example of competing theory eg Lamarckism\nignore 'no evidence'",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio5.2.3",
+                  "aqaGCSEBio5.2.2"
+                ],
+                "questionID": "aqaGCSEBio_1_7_3_s10QeQSfpv"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "The question aligns perfectly with the AQA syllabus and higher tier expectations.",
+            "question_id": "aqaGCSEBio_1_7_TFC8dEmqWx"
+          },
+          {
+            "question_number": 8,
+            "question_stem": "Scientists are investigating the use of stem cells to treat patients with paralysis caused by spinal cord injuries. \n\nThe aim is to grow new nerve cells to repair the damage.\n\nOne proposed method is called therapeutic cloning. \n\nThis involves taking a skin cell from the patient and using it to produce an embryo. Stem cells can then be collected from this embryo.  These stem cells are a perfect genetic match for the patient.",
+            "question_stem_diagram": "",
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "Suggest one advantage of using stem cells that are a perfect genetic match for the patient.",
+                "markmax": 1,
+                "markscheme": "any one from:\n• (stem cells) will not be rejected (by the patient’s body)\n• (patient’s) immune system will not attack the cells\n• no need for immunosuppressant drugs\n\nallow a perfect tissue match (1)\nignore cells are not foreign",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio0.1.6",
+                  "aqaGCSEBio0.1.4"
+                ],
+                "questionID": "aqaGCSEBio_1_8_1_ijLjfrxrvy"
+              },
+              {
+                "question_part": 2,
+                "question_type": "long_answer",
+                "question_text": "Describe the main steps of therapeutic cloning used to produce an embryo from a patient’s skin cell.",
+                "markmax": 3,
+                "markscheme": "any three from:\n• nucleus is removed from a (patient’s) skin cell\n• nucleus is removed from an egg cell / egg cell is enucleated\n• (skin cell) nucleus is inserted into the (enucleated) egg cell\n• egg cell is stimulated to divide / an electric shock is used\n\nallow body cell for skin cell (1)\nallow gamete for egg cell (1)",
+                "difficulty": 6,
+                "lessonIDs": [
+                  "aqaGCSEBio0.1.6",
+                  "aqaGCSEBio5.1.13"
+                ],
+                "questionID": "aqaGCSEBio_1_8_2_gNHme5HatX"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "Define the term 'stem cell'",
+                "markmax": 1,
+                "markscheme": "an undifferentiated / unspecialised cell\nthat can differentiate / change into other cell types\n\n(both points needed for the mark)",
+                "difficulty": 3,
+                "lessonIDs": [
+                  "aqaGCSEBio0.1.4"
+                ],
+                "questionID": "aqaGCSEBio_1_8_3_rtWMHJ0y2r"
+              },
+              {
+                "question_part": 4,
+                "question_type": "long_answer",
+                "question_text": "An alternative is to use stem cells from donated embryos left over from fertility treatment.\n\nSuggest two reasons why some people have ethical objections to using stem cells from a donated embryo.",
+                "markmax": 2,
+                "markscheme": "any two from:\n• embryo has the potential to be a human life\n• it is killing / murder\n• embryo cannot give consent\n• religious objections\n\nallow it is unethical / it is wrong unqualified (for 1 mark)",
+                "difficulty": 5,
+                "lessonIDs": [
+                  "aqaGCSEBio0.1.7",
+                  "aqaGCSEBio5.0.26",
+                  "aqaGCSEBio0.1.6",
+                  "aqaGCSEBio0.1.5",
+                  "aqaGCSEBio0.1.4"
+                ],
+                "questionID": "aqaGCSEBio_1_8_4_OeQw9WyjNq"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "The question is appropriate for the syllabus, clear, and well-structured for higher.",
+            "question_id": "aqaGCSEBio_1_8_MfbYVGQcLd"
+          },
+          {
+            "question_number": 9,
+            "question_stem": "This question is about the heart and circulation during exercise.\n\nA student investigated the effect of a 6-week training programme on their circulatory system. \n\n\n**Table 5** shows some of the data they collected.\n\nThe student used the following equation:\n$$ \n\\text{Cardiac output} = \\text{Stroke volume} \\times \\text{Heart rate}\n$$\nCardiac output is the volume of blood pumped by the heart per minute.\n\n\n**Table 5**",
+            "question_stem_diagram": {
+              "required": true,
+              "items": [
+                {
+                  "description": "Uploaded PNG diagram: Screenshot 2025-09-12 at 12.12.24 pm.png",
+                  "method": "manual_upload",
+                  "attempts": [
+                    {
+                      "attempt_number": 1,
+                      "latex_code": null,
+                      "success": true,
+                      "svg": null,
+                      "png_path": "![](https://firebasestorage.googleapis.com/v0/b/content-aaa73.firebasestorage.app/o/diagram_replacements%2Fquestion_stem_diagram_1757675559477_1757675559876_Screenshot%202025-09-12%20at%2012.12.24%C3%A2%C2%80%C2%AFpm.png?alt=media&token=1e7e45ab-fafd-4191-abc8-91711866094a)",
+                      "error_message": null,
+                      "retry_count": 0,
+                      "missing_content": [],
+                      "llm_rank": 1,
+                      "llm_feedback": null,
+                      "requires_intervention": null
+                    }
+                  ],
+                  "final": {
+                    "png_path": "![](https://firebasestorage.googleapis.com/v0/b/content-aaa73.firebasestorage.app/o/diagram_replacements%2Fquestion_stem_diagram_1757675559477_1757675559876_Screenshot%202025-09-12%20at%2012.12.24%C3%A2%C2%80%C2%AFpm.png?alt=media&token=1e7e45ab-fafd-4191-abc8-91711866094a)"
+                  }
+                }
+              ]
+            },
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "calculate",
+                "question_text": "Calculate the student's cardiac output in cm³/minute during exercise after the 6-week training programme. Give your answer to 3 significant figures.",
+                "markmax": 3,
+                "markscheme": "• Substitution: $130 \\times 145$ (1)\n• Correct answer: 18850 (1)\n• Answer to 3 s.f.: 18900 (cm³/minute) (1)\n\n",
+                "difficulty": 6,
+                "lessonIDs": [
+                  "aqaGCSEBio1.1.10",
+                  "aqaGCSEBio3.1.6"
+                ],
+                "questionID": "aqaGCSEBio_1_9_1_x4ldQR3rAH"
+              },
+              {
+                "question_part": 2,
+                "question_type": "long_answer",
+                "question_text": "Describe two changes to the student's circulatory system shown in **Table 5** that occurred as a result of the training programme.",
+                "markmax": 2,
+                "markscheme": "any two from:\n• resting heart rate decreases (from 75 to 62) (1)\n• heart rate during exercise decreases (from 160 to 145) (1)\n• stroke volume (during exercise) increases (from 105 to 130) (1)\n(allow comparative figures for marks)",
+                "difficulty": 5,
+                "lessonIDs": [
+                  "aqaGCSEBio3.1.6",
+                  "aqaGCSEBio1.1.8"
+                ],
+                "questionID": "aqaGCSEBio_1_9_2_o1cI5nFx1K"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "Explain how the changes in the circulatory system after training are an advantage to the student during exercise.",
+                "markmax": 6,
+                "markscheme": "Level 3: A coherent and logically structured explanation is given, linking increased stroke volume to increased supply of oxygen/glucose, leading to increased aerobic respiration and energy release, and its effect on performance. (5-6 marks)\n\nLevel 2: Relevant points are identified and there are attempts at logical linking, but the account is not fully clear or detailed. (3-4 marks)\n\nLevel 1: Simple statements are made, such as 'more oxygen gets to muscles', with little or no linking. (1-2 marks)\n\nIndicative Content:\n• increased stroke volume\n• (so) more blood pumped per beat / heart is more efficient\n• increased supply of oxygenated blood to muscles\n• (so) more oxygen supplied to muscles\n• (and) more glucose supplied to muscles\n• (for a) higher rate of aerobic respiration\n• (releasing) more energy\n• (for) muscle contraction\n• delays anaerobic respiration / oxygen debt\n• (so) less lactic acid produced\n• (reducing) muscle fatigue / cramp\n• allows exercise for longer / at higher intensity",
+                "difficulty": 3,
+                "lessonIDs": [
+                  "aqaGCSEBio1.1.8",
+                  "aqaGCSEBio3.1.1",
+                  "aqaGCSEBio3.1.6",
+                  "aqaGCSEBio3.1.7"
+                ],
+                "questionID": "aqaGCSEBio_1_9_3_TpuVKdQqif"
+              },
+              {
+                "question_part": 4,
+                "question_type": "mcq",
+                "question_text": "Which blood vessel carries deoxygenated blood from the body back to the heart?",
+                "markmax": 1,
+                "markscheme": "• Vena cava (1)",
+                "difficulty": 5,
+                "lessonIDs": [
+                  "aqaGCSEBio1.1.8",
+                  "aqaGCSEBio1.1.9",
+                  "aqaGCSEBio1.1.10"
+                ],
+                "options": [
+                  "Aorta",
+                  "Pulmonary artery",
+                  "Pulmonary vein",
+                  "Vena cava"
+                ],
+                "correct_answer_index": 3,
+                "questionID": "aqaGCSEBio_1_9_4_rsSmzvFabr"
+              },
+              {
+                "question_part": 5,
+                "question_type": "long_answer",
+                "question_text": "Explain why the wall of the left ventricle is thicker than the wall of the right ventricle.",
+                "markmax": 2,
+                "markscheme": "• left ventricle pumps blood to the whole body (1)\n• (which is) at a higher pressure / further distance than to the lungs (1)\nOR\n• right ventricle pumps blood only to the lungs (1)\n• (which is) at a lower pressure / shorter distance (1)",
+                "difficulty": 3,
+                "lessonIDs": [
+                  "aqaGCSEBio1.1.8",
+                  "aqaGCSEBio7.0.0"
+                ],
+                "questionID": "aqaGCSEBio_1_9_5_kqs2YLGItg"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "The question appropriately assesses core syllabus content with a suitable cognitive demand.",
+            "question_id": "aqaGCSEBio_1_9_vTHztS98LT"
+          }
+        ]
+      },
+      {
+        "paper_id": "medlymockaqaGCSEBio_Sept_Mock2Higher",
+        "tier": "Higher",
+        "paper": "2",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_stem": "Peat bogs are important carbon stores. Scientists estimated the mass of carbon transferred into and out of a large peat bog each year.\n\n**Table 1** shows the results.",
+            "question_stem_diagram": {
+              "required": true,
+              "items": [
+                {
+                  "description": "Uploaded PNG diagram: Screenshot 2025-09-12 at 11.55.54 am.png",
+                  "method": "manual_upload",
+                  "attempts": [
+                    {
+                      "attempt_number": 1,
+                      "latex_code": null,
+                      "success": true,
+                      "svg": null,
+                      "png_path": "![](https://firebasestorage.googleapis.com/v0/b/content-aaa73.firebasestorage.app/o/diagram_replacements%2Fquestion_stem_diagram_1757674577240_1757674577652_Screenshot%202025-09-12%20at%2011.55.54%C3%A2%C2%80%C2%AFam.png?alt=media&token=2a4a1fae-0a1d-4eb6-b841-2d73d19414b9)",
+                      "error_message": null,
+                      "retry_count": 0,
+                      "missing_content": [],
+                      "llm_rank": 1,
+                      "llm_feedback": null,
+                      "requires_intervention": null
+                    }
+                  ],
+                  "final": {
+                    "png_path": "![](https://firebasestorage.googleapis.com/v0/b/content-aaa73.firebasestorage.app/o/diagram_replacements%2Fquestion_stem_diagram_1757674582414_1757674582549_Screenshot%202025-09-12%20at%2011.56.12%C3%A2%C2%80%C2%AFam.png?alt=media&token=fb9f5906-d232-457b-bad2-ef7566e76a33)"
+                  }
+                }
+              ]
+            },
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "calculate",
+                "question_text": "Calculate the total mass of carbon lost from the peat bog by respiration each year. Give your answer in millions of tonnes.",
+                "markmax": 1,
+                "markscheme": "7.3 (million tonnes)",
+                "difficulty": 7,
+                "lessonIDs": [
+                  "aqaGCSEBio6.2.4",
+                  "aqaGCSEBio6.1.8",
+                  "aqaGCSEBio6.1.7",
+                  "aqaGCSEBio6.1.6",
+                  "aqaGCSEBio3.1.3"
+                ],
+                "questionID": "aqaGCSEBio_2_1_1_q12hbDRmSu"
+              },
+              {
+                "question_part": 2,
+                "question_type": "long_answer",
+                "question_text": "Farmers sometimes drain or destroy peat bogs to use the land for farming.\n\nExplain how this can lead to a loss of biodiversity.",
+                "markmax": 3,
+                "markscheme": "More carbon dioxide is released into the atmosphere (1)\n\nHigher levels of CO₂ contribute to global warming (1)\n\nGlobal warming causes habitat loss / species extinction / reduced biodiversity(1)",
+                "difficulty": 6,
+                "lessonIDs": [
+                  "aqaGCSEBio6.2.4",
+                  "aqaGCSEBio6.2.0",
+                  "aqaGCSEBio6.2.3",
+                  "aqaGCSEBio6.2.1",
+                  "aqaGCSEBio6.2.7"
+                ],
+                "questionID": "aqaGCSEBio_2_1_2_DY470iUKVz"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "A 'carbon sink' is an area that takes in more carbon than it releases.\n\nHow does the data in **Table 1** support the idea that this peat bog is a carbon sink?",
+                "markmax": 1,
+                "markscheme": "carbon gained (8.5) is more than carbon lost (7.8)\nallow ecf from part 1",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio6.1.5",
+                  "aqaGCSEBio6.1.6",
+                  "aqaGCSEBio6.2.4",
+                  "aqaGCSEBio6.2.6"
+                ],
+                "questionID": "aqaGCSEBio_2_1_3_WbCJmNLfup"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "Well-structured question with appropriate topic coverage and cognitive demand for Higher Tier.",
+            "question_id": "aqaGCSEBio_2_1_qXsjan8wg9"
+          },
+          {
+            "question_number": 2,
+            "question_stem": "A scientist investigated the effect of rooting powder on the growth of new roots from cuttings of a valuable plant. \n\nThe rooting powder contains the plant hormone auxin.\n\nThe scientist:\n• took 200 cuttings from the same parent plant\n• dipped the base of 40 cuttings into one of five powders (each with a different concentration of auxin).\n• used one powder as a control and contained no auxin\n• planted each cutting into a pot containing the same type volume of compost\n• placed the pots in a propagator for 3 weeks\n• recorded the percentage of cuttings that had successfully grown roots.\n\n**Table 2** below shows the results.",
+            "question_stem_diagram": {
+              "required": true,
+              "items": [
+                {
+                  "description": "Uploaded PNG diagram: Screenshot 2025-09-12 at 11.58.39 am.png",
+                  "method": "manual_upload",
+                  "attempts": [
+                    {
+                      "attempt_number": 1,
+                      "latex_code": null,
+                      "success": true,
+                      "svg": null,
+                      "png_path": "![](https://firebasestorage.googleapis.com/v0/b/content-aaa73.firebasestorage.app/o/diagram_replacements%2Fquestion_stem_diagram_1757674727076_1757674727485_Screenshot%202025-09-12%20at%2011.58.39%C3%A2%C2%80%C2%AFam.png?alt=media&token=16baa955-53df-4404-a344-ee35a9a9313f)",
+                      "error_message": null,
+                      "retry_count": 0,
+                      "missing_content": [],
+                      "llm_rank": 1,
+                      "llm_feedback": null,
+                      "requires_intervention": null
+                    }
+                  ],
+                  "final": {
+                    "png_path": "![](https://firebasestorage.googleapis.com/v0/b/content-aaa73.firebasestorage.app/o/diagram_replacements%2Fquestion_stem_diagram_1757674727076_1757674727485_Screenshot%202025-09-12%20at%2011.58.39%C3%A2%C2%80%C2%AFam.png?alt=media&token=16baa955-53df-4404-a344-ee35a9a9313f)"
+                  }
+                }
+              ]
+            },
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "In this question you will be assessed on using good English, organising information clearly and using specialist terms where appropriate.\n\nDescribe how a plant shoot and a plant root respond to the environmental factors of light and gravity.\n\nIn your answer you should refer to the role of auxin.",
+                "markmax": 6,
+                "markscheme": "Level 3 (5–6 marks):\nA detailed and coherent description of responses to both light and gravity for both shoots and roots. The role of auxin in causing differential growth is explained clearly for both shoots and roots.\n\nLevel 2 (3–4 marks):\nA description of at least one tropism for a shoot and a root, with some reference to auxin. Or a detailed description of tropisms in shoots and roots with a limited or partially correct explanation of the hormonal role.\n\nLevel 1 (1–2 marks):\nA simple statement about a plant response, e.g., 'shoots grow to light'. Auxin is named as a hormone. The information is basic and may be poorly organised.\n\n0 marks:\nNo relevant content.\n\nExamples of biology points made in the response:\n•\tshoots grow towards light / are positively phototropic\n•\tshoots grow away from gravity / are negatively gravitropic\n•\troots grow away from light / are negatively phototropic\n•\troots grow towards gravity / are positively gravitropic\n•\tauxin is a plant hormone that controls growth\n•\tauxin is produced in the tips (of shoots/roots)\n•\t(in response to light) auxin diffuses to the shaded side of the shoot tip\n•\tthis leads to unequal distribution of auxin\n•\t(in shoots) higher concentration of auxin causes increased cell elongation/growth\n•\t(in response to gravity) auxin concentrates on the lower side of the root/shoot\n•\t(in roots) a high concentration of auxin inhibits cell elongation/growth",
+                "difficulty": 7,
+                "lessonIDs": [
+                  "aqaGCSEBio4.3.0",
+                  "aqaGCSEBio4.3.2",
+                  "aqaGCSEBio4.3.4"
+                ],
+                "questionID": "aqaGCSEBio_2_2_1_K0KqxC3LD9"
+              },
+              {
+                "question_type": "long_answer",
+                "question_text": "Give one reason why it was important to use cuttings from the same parent plant.",
+                "markmax": 1,
+                "markscheme": "any one from:\n•\tto control for genetic factors\n•\tso they are genetically identical / have the same genes / have the same DNA\n•\tso that any difference in rooting is due to the auxin concentration (and not genetics)\n\nignore 'to make it a fair test' without qualification",
+                "lessonIDs": [
+                  "aqaGCSEBio5.1.12",
+                  "aqaGCSEBio5.0.0",
+                  "aqaGCSEBio5.1.0"
+                ],
+                "question_part": 2,
+                "questionID": "aqaGCSEBio_2_2_2_hmUCxAfaPl"
+              },
+              {
+                "question_type": "long_answer",
+                "question_text": "Explain why the scientist used a powder with a concentration of 0 mg/kg of auxin.",
+                "markmax": 1,
+                "markscheme": "any one from:\n•\tas a control\n•\tfor comparison / to compare the results to\n•\tto see what happens without (added) auxin / to see if auxin has an effect\n\ndo not allow 'as a control variable'",
+                "lessonIDs": [
+                  "aqaGCSEBio4.3.0",
+                  "aqaGCSEBio4.3.2",
+                  "aqaGCSEBio4.3.3",
+                  "aqaGCSEBio4.3.4"
+                ],
+                "question_part": 3,
+                "questionID": "aqaGCSEBio_2_2_3_kgLAmsGzDX"
+              },
+              {
+                "question_type": "long_answer",
+                "question_text": "The scientist concluded that a concentration of 300 mg/kg was the most effective to use for commercial purposes.\n\nSuggest how the data in **Table 2** supports this conclusion.",
+                "markmax": 1,
+                "markscheme": "it gives the highest percentage of cuttings with roots (at 90%)\n\nallow it is the optimum concentration\nallow it gives the most rooted cuttings",
+                "lessonIDs": [
+                  "aqaGCSEBio3.0.6"
+                ],
+                "question_part": 4,
+                "questionID": "aqaGCSEBio_2_2_4_9RtwVZAm79"
+              },
+              {
+                "question_type": "long_answer",
+                "question_text": "Suggest one reason why the percentage of cuttings forming roots decreased when the concentration was increased to 400 mg/kg.",
+                "markmax": 1,
+                "markscheme": "(a high) concentration of auxin inhibits root growth\n\nallow it is toxic / harmful at high concentrations\nallow it has passed the optimum concentration",
+                "lessonIDs": [
+                  "aqaGCSEBio4.3.2",
+                  "aqaGCSEBio4.3.3",
+                  "aqaGCSEBio0.2.6"
+                ],
+                "question_part": 5,
+                "questionID": "aqaGCSEBio_2_2_5_4El8SozkNj"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "This is a standard and well-constructed required practical question for this level.",
+            "question_id": "aqaGCSEBio_2_2_kiYEbPWa3m"
+          },
+          {
+            "question_number": 3,
+            "question_stem": "A woodland contains a variety of plants and animals that are adapted to their environment.",
+            "question_stem_diagram": "",
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "Plants such as bluebells and bracken grow in the woodland during different seasons.\n\nBluebells grow and flower in early spring. By summer, the bluebell leaves have died back as the bracken plants grow tall and form a dense canopy.\n\nSuggest and explain why the bluebell's life cycle is an advantage in its competition with bracken.",
+                "markmax": 3,
+                "markscheme": "•In early spring there are no / few leaves on trees / bracken has not grown (1)\n•(so) more light reaches the bluebell / woodland floor (1)\n•(so) more photosynthesis can occur / more food is made / more glucose is made / more energy is stored (for the next year) (1)\n•allow avoids competition for light with bracken / trees",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio6.0.1",
+                  "aqaGCSEBio6.0.5",
+                  "aqaGCSEBio6.0.0",
+                  "aqaGCSEBio6.0.3",
+                  "aqaGCSEBio6.0.4",
+                  "aqaGCSEBio6.0.6",
+                  "aqaGCSEBio3.0.2",
+                  "aqaGCSEBio7.0.1"
+                ],
+                "questionID": "aqaGCSEBio_2_3_1_YYouwBkXr9"
+              },
+              {
+                "question_part": 2,
+                "question_type": "long_answer",
+                "question_text": "Stoats and weasels are predators that live in the same woodlands and compete for food such as mice and voles.\n\nIn many parts of the UK, the stoat's brown coat changes to white during winter. The weasel's coat remains brown all year.\n\nSuggest an advantage to the stoat of its coat changing colour in winter.",
+                "options": [
+                  "Amylase",
+                  "Carbohydrase",
+                  "Lipase",
+                  "Protease"
+                ],
+                "markmax": 2,
+                "markscheme": "One pair from: \n\n\nprovides camouflage / less easily seen (1)\nagainst the snow / in winter conditions (1)\n\nOR\n\nprovides camouflage (1)\n(so) helps it to hide from prey / predators (1)\n\nallow 1 mark for a correct linked pair, e.g. 'harder for prey to see it against the snow' for 2 marks",
+                "difficulty": 3,
+                "lessonIDs": [
+                  "aqaGCSEBio6.0.0",
+                  "aqaGCSEBio6.0.1",
+                  "aqaGCSEBio6.0.5",
+                  "aqaGCSEBio6.0.6",
+                  "aqaGCSEBio6.1.1",
+                  "aqaGCSEBio7.0.1"
+                ],
+                "questionID": "aqaGCSEBio_2_3_2_YGO77tGQ5g"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "The question is syllabus-appropriate, clear, and has suitable cognitive demand for higher.",
+            "question_id": "aqaGCSEBio_2_3_0UuNXaGDrO"
+          },
+          {
+            "question_number": 4,
+            "question_stem": "This question is about how the body responds to changes. \n\nA person walking in the dark is startled by a sudden, loud noise behind them. Their body responds immediately.",
+            "question_stem_diagram": "",
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "The person's heart rate increases. \n\nDescribe the response of the effector responsible for increasing heart rate.",
+                "options": [
+                  "Cellulose",
+                  "Glucose",
+                  "Starch",
+                  "Sucrose"
+                ],
+                "markmax": 2,
+                "markscheme": "(cardiac) muscle (1)\ncontracts (more frequently / with more force) (1)\nallow 'cardiac muscle'\nignore 'beats faster' unqualified",
+                "difficulty": 3,
+                "lessonIDs": [
+                  "aqaGCSEBio3.1.6",
+                  "aqaGCSEBio4.0.2",
+                  "aqaGCSEBio4.1.1",
+                  "aqaGCSEBio4.2.21"
+                ],
+                "questionID": "aqaGCSEBio_2_4_1_19qjpmZcGE"
+              },
+              {
+                "question_part": 2,
+                "question_type": "long_answer",
+                "question_text": "The stimulus was the loud noise.\n\nDescribe the role of receptors in the ear in detecting this stimulus.",
+                "markmax": 2,
+                "markscheme": "detects stimulus / change in environment / sound (1)\nconverts information / energy into an (electrical) impulse (1)\nallow 'sends impulse to sensory neurone'",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio4.0.2",
+                  "aqaGCSEBio4.1.0",
+                  "aqaGCSEBio4.1.1"
+                ],
+                "questionID": "aqaGCSEBio_2_4_2_a0uWse6a4l"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "The loud noise triggered the person’s ‘fight or flight’ response.\n\nName the substance released by the body in response to the noise and give one effect it has other than increasing heart rate.",
+                "markmax": 3,
+                "markscheme": "adrenaline (1)\nany one from: (1)\n• increases breathing rate / depth\n• increases blood glucose concentration / causes glycogen to be converted to glucose\n• diverts blood flow to muscles\n• causes pupils to dilate",
+                "difficulty": 6,
+                "lessonIDs": [
+                  "aqaGCSEBio4.2.21",
+                  "aqaGCSEBio4.2.0",
+                  "aqaGCSEBio4.1.1"
+                ],
+                "questionID": "aqaGCSEBio_2_4_3_913jrvZuBT"
+              },
+              {
+                "question_part": 4,
+                "question_type": "long_answer",
+                "question_text": "Suggest one reason why this rapid, coordinated 'fight or flight' response is important.",
+                "markmax": 1,
+                "markscheme": "any one from:\n• to allow the organism to escape danger / run away\n• to allow the organism to fight / defend itself\n• increases chance of survival",
+                "difficulty": 2,
+                "lessonIDs": [
+                  "aqaGCSEBio3.1.1",
+                  "aqaGCSEBio3.1.6",
+                  "aqaGCSEBio4.2.21"
+                ],
+                "questionID": "aqaGCSEBio_2_4_4_0DQAttuZn9"
+              }
+            ],
+            "validation_comment": "REVISED_PASS",
+            "validation_reason": "Syllabus-relevant content with appropriate cognitive demand and clarity for higher tier.",
+            "question_id": "aqaGCSEBio_2_4_Q1eeGLjKcE"
+          },
+          {
+            "question_number": 5,
+            "question_stem": "A botanist is investigating a rare species of lily. \n\n\nThis specific variety has valuable large flowers but is highly susceptible to a soil-borne fungal disease that attacks the roots. \n\n\nTo create more plants, the botanist uses a tissue culture, taking a small sample of cells from the tip of a healthy shoot and growing them on a sterile nutrient medium. The medium contains the plant hormone auxin. ",
+            "question_stem_diagram": "",
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "Auxins are plant hormones that affect the growth of shoots and roots.\n\nExplain why auxins have the greatest effect in regions of the plant that contain meristems.",
+                "markmax": 3,
+                "markscheme": "•Meristems contain undifferentiated cells (1)\n•These cells can divide by mitosis (1)\n•Auxins stimulate cell elongation and division (1)",
+                "difficulty": 2,
+                "lessonIDs": [
+                  "aqaGCSEBio4.3.0",
+                  "aqaGCSEBio1.2.0"
+                ],
+                "questionID": "aqaGCSEBio_2_5_1_wIxqPE2JxE"
+              },
+              {
+                "question_part": 2,
+                "question_type": "long_answer",
+                "question_text": "Explain how using cells from these regions produce a whole new plant.",
+                "markmax": 2,
+                "markscheme": "any two from:\n• cells are undifferentiated / unspecialised (1)\n• can differentiate / specialise to form any type of plant cell / tissue (1)\n• can divide by mitosis (1)",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio0.1.4",
+                  "aqaGCSEBio0.1.5",
+                  "aqaGCSEBio0.1.8",
+                  "aqaGCSEBio1.2.0",
+                  "aqaGCSEBio5.1.12"
+                ],
+                "questionID": "aqaGCSEBio_2_5_2_ygKmVdjJD7"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "Give one advantage of producing new lily plants by tissue culture rather than growing them from seeds.",
+                "markmax": 1,
+                "markscheme": "Any one from: \n• Produces many plants quickly (1)\n\n• All plants are genetically identical to the parent / will have the same desirable characteristics (1)\n\n• Plants are disease-free if parent was healthy (1)",
+                "difficulty": 3,
+                "lessonIDs": [
+                  "aqaGCSEBio0.1.8",
+                  "aqaGCSEBio5.0.0",
+                  "aqaGCSEBio5.0.4",
+                  "aqaGCSEBio5.0.5",
+                  "aqaGCSEBio5.1.12"
+                ],
+                "questionID": "aqaGCSEBio_2_5_3_VEBHRtw5zP"
+              },
+              {
+                "question_part": 4,
+                "question_type": "long_answer",
+                "question_text": "Lilies can also reproduce sexually by producing seeds. \n\nSuggest why sexual reproduction is an advantage for a population of lilies if the environment changes.",
+                "markmax": 2,
+                "markscheme": "• (sexual reproduction / meiosis) produces genetic variation / offspring are genetically different (1)\n• so some individuals will be better adapted / have resistant characteristics to survive (the change) (1)",
+                "difficulty": 6,
+                "lessonIDs": [
+                  "aqaGCSEBio5.0.0",
+                  "aqaGCSEBio5.0.4",
+                  "aqaGCSEBio5.1.0",
+                  "aqaGCSEBio5.1.2",
+                  "aqaGCSEBio5.1.3",
+                  "aqaGCSEBio5.2.0"
+                ],
+                "questionID": "aqaGCSEBio_2_5_4_Y6pEnn1eSu"
+              },
+              {
+                "question_part": 5,
+                "question_type": "long_answer",
+                "question_text": "A body cell in the lily plant has 24 chromosomes.\n\nGive the number of chromosomes in an unfertilised lily egg cell and in the leaf cell of a new plant grown from tissue culture.\n\nEgg cell __________\n\nLeaf cell __________",
+                "markmax": 2,
+                "markscheme": "Egg cell = 12 (1)\nLeaf cell = 24 (1)",
+                "difficulty": 5,
+                "lessonIDs": [
+                  "aqaGCSEBio0.1.0",
+                  "aqaGCSEBio5.0.0",
+                  "aqaGCSEBio5.0.2",
+                  "aqaGCSEBio5.1.12"
+                ],
+                "questionID": "aqaGCSEBio_2_5_5_lL8fWLkbyg"
+              },
+              {
+                "question_part": 6,
+                "question_type": "long_answer",
+                "question_text": "Explain why tissue culture from a shoot tip could produce a plant free from the root fungus, but could not produce a plant that is resistant to the fungus if the parent had a genetic susceptibility.",
+                "markmax": 2,
+                "markscheme": "• fungus is a pathogen/infection only present in roots / soil, so the shoot tip is not infected (1)\n• the genetic susceptibility is in the DNA / genes of all cells, so the new plant will inherit it (1)\n\nallow 'faulty gene' for genetic susceptibility",
+                "difficulty": 7,
+                "lessonIDs": [
+                  "aqaGCSEBio1.2.0",
+                  "aqaGCSEBio2.2.2",
+                  "aqaGCSEBio5.0.0",
+                  "aqaGCSEBio5.1.0",
+                  "aqaGCSEBio5.1.6",
+                  "aqaGCSEBio5.1.12"
+                ],
+                "questionID": "aqaGCSEBio_2_5_6_W6EOlXB8T0"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "The question appropriately assesses key syllabus topics with a good range of cognitive demand suitable for Higher Tier.",
+            "question_id": "aqaGCSEBio_2_5_2ySFERod4q"
+          },
+          {
+            "question_number": 6,
+            "question_stem": "A breeder keeps rabbits. \n\nIn rabbits, the allele for a black coat, B, is dominant to the allele for a brown coat, b.\n\nThe breeder has two black-coated rabbits, a male and a female.\n\nOver time, these two parents produce many offspring.\n\n**Table 3** shows the total number of offspring with each coat colour produced by the parent rabbits.",
+            "question_stem_diagram": {
+              "required": true,
+              "items": [
+                {
+                  "description": "Uploaded PNG diagram: Screenshot 2025-09-12 at 12.19.38 pm.png",
+                  "method": "manual_upload",
+                  "attempts": [
+                    {
+                      "attempt_number": 1,
+                      "latex_code": null,
+                      "success": true,
+                      "svg": null,
+                      "png_path": "![](https://firebasestorage.googleapis.com/v0/b/content-aaa73.firebasestorage.app/o/diagram_replacements%2Fquestion_stem_diagram_1757675987020_1757675987530_Screenshot%202025-09-12%20at%2012.19.38%C3%A2%C2%80%C2%AFpm.png?alt=media&token=595b4e84-bd0d-4a5b-81df-e00441f6cd3b)",
+                      "error_message": null,
+                      "retry_count": 0,
+                      "missing_content": [],
+                      "llm_rank": 1,
+                      "llm_feedback": null,
+                      "requires_intervention": null
+                    }
+                  ],
+                  "final": {
+                    "png_path": "![](https://firebasestorage.googleapis.com/v0/b/content-aaa73.firebasestorage.app/o/diagram_replacements%2Fquestion_stem_diagram_1757675987020_1757675987530_Screenshot%202025-09-12%20at%2012.19.38%C3%A2%C2%80%C2%AFpm.png?alt=media&token=595b4e84-bd0d-4a5b-81df-e00441f6cd3b)"
+                  }
+                }
+              ]
+            },
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "What is the genotype of the brown-coated offspring?\n\nGive one reason for your answer.",
+                "markmax": 2,
+                "markscheme": "•Genotype is bb (1)\n•Reason: brown is the recessive phenotype / allele OR need two recessive alleles (to be expressed) (1)",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio5.0.19",
+                  "aqaGCSEBio5.0.21",
+                  "aqaGCSEBio5.0.22",
+                  "aqaGCSEBio5.0.23"
+                ],
+                "questionID": "aqaGCSEBio_2_6_1_E72grN2SGH"
+              },
+              {
+                "question_part": 2,
+                "question_type": "long_answer",
+                "question_text": "Explain how two black-coated parent rabbits can produce offspring with brown coats.\n\nYou should include the genotypes of the parents and their gametes in your answer.",
+                "markmax": 4,
+                "markscheme": "•(both) parents are heterozygous / Bb (1)\n\n•because they are black but produce brown offspring / they must both carry the recessive allele (1)\n\n•gametes from each parent are B and b (1)\n\n•offspring can inherit a b allele from each parent (to be bb) (1)",
+                "difficulty": 6,
+                "lessonIDs": [
+                  "aqaGCSEBio5.0.19",
+                  "aqaGCSEBio5.0.20",
+                  "aqaGCSEBio5.0.21",
+                  "aqaGCSEBio5.0.22",
+                  "aqaGCSEBio5.0.23",
+                  "aqaGCSEBio5.0.24"
+                ],
+                "questionID": "aqaGCSEBio_2_6_2_Hnn1tyx5Le"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "The breeder wants to be certain of producing only brown-coated rabbits in the next generation.\n\nSuggest a genetic cross the breeder should carry out.\n\nExplain why your suggested cross will only produce brown-coated offspring.",
+                "markmax": 3,
+                "markscheme": "•Cross two brown (rabbits) / a brown rabbit with a brown rabbit / cross bb x bb (1)\n•(because) brown rabbits are homozygous recessive / have genotype bb (1)\n•(so) can only pass on the b / recessive allele (to offspring) / all gametes contain b (1)",
+                "difficulty": 7,
+                "lessonIDs": [
+                  "aqaGCSEBio5.1.5",
+                  "aqaGCSEBio5.0.19",
+                  "aqaGCSEBio5.0.21",
+                  "aqaGCSEBio5.0.22",
+                  "aqaGCSEBio5.0.23",
+                  "aqaGCSEBio5.1.4"
+                ],
+                "questionID": "aqaGCSEBio_2_6_3_envfRjaJcM"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "Question covers core syllabus content with appropriate cognitive demand and clear progression.",
+            "question_id": "aqaGCSEBio_2_6_JhnhRjBrA7"
+          },
+          {
+            "question_number": 7,
+            "question_stem": "A conservation team is estimating the population of limpets on a specific 200 m² section of a rocky shore. A large limpet population is an indicator of good water quality.\n\nA junior member of the team carried out a preliminary survey. They placed five 0.5 m × 0.5 m quadrats on the lower part of the shore, near the water line, because limpets were abundant there.\n\n\n**Table 4** below shows the results.\n\n\nBased on these results, the junior conservationist estimated the total limpet population in the 200 m² area to be 9600.\n\n\n**Table 4**",
+            "question_stem_diagram": {
+              "required": true,
+              "items": [
+                {
+                  "description": "Uploaded PNG diagram: Screenshot 2025-09-12 at 12.20.05 pm.png",
+                  "method": "manual_upload",
+                  "attempts": [
+                    {
+                      "attempt_number": 1,
+                      "latex_code": null,
+                      "success": true,
+                      "svg": null,
+                      "png_path": "![](https://firebasestorage.googleapis.com/v0/b/content-aaa73.firebasestorage.app/o/diagram_replacements%2Fquestion_stem_diagram_1757676014452_1757676014583_Screenshot%202025-09-12%20at%2012.20.05%C3%A2%C2%80%C2%AFpm.png?alt=media&token=cb27901d-e500-4b41-9b30-ffb2c0617d2a)",
+                      "error_message": null,
+                      "retry_count": 0,
+                      "missing_content": [],
+                      "llm_rank": 1,
+                      "llm_feedback": null,
+                      "requires_intervention": null
+                    }
+                  ],
+                  "final": {
+                    "png_path": "![](https://firebasestorage.googleapis.com/v0/b/content-aaa73.firebasestorage.app/o/diagram_replacements%2Fquestion_stem_diagram_1757676014452_1757676014583_Screenshot%202025-09-12%20at%2012.20.05%C3%A2%C2%80%C2%AFpm.png?alt=media&token=cb27901d-e500-4b41-9b30-ffb2c0617d2a)"
+                  }
+                }
+              ]
+            },
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "Suggest one reason why placing the quadrats only on the lower part of the shore could lead to an inaccurate population estimate. Explain your answer.",
+                "markmax": 2,
+                "markscheme": "•Suggestion: Limpet distribution may not be uniform / may be fewer limpets on the upper shore (1)\n•Explanation: The sample is biased / not representative of the whole area, leading to an overestimate (1)",
+                "difficulty": 6,
+                "lessonIDs": [
+                  "aqaGCSEBio6.1.2",
+                  "aqaGCSEBio6.1.4",
+                  "aqaGCSEBio6.0.3"
+                ],
+                "questionID": "aqaGCSEBio_2_7_1_uGpCA0GvUz"
+              },
+              {
+                "question_part": 2,
+                "question_type": "calculate",
+                "question_text": "The mean number of limpets in the five quadrats was 12. \n\nExplain how the junior conservationist used this mean to calculate the estimated total population of 9600 limpets. \n\nYou must show your working.",
+                "markmax": 2,
+                "markscheme": "•Calculates mean number of limpets per m² = $12 \\div (0.5 \\times 0.5)$ or $12 \\div 0.25$ or 48 (1)\n\n•Calculates total population = (their value per m²) $\\times 200$ or $48 \\times 200 = 9600$ (1)\n\nallow full marks for correct calculation shown in one step e.g. $(12 \\div 0.25) \\times 200 = 9600$",
+                "difficulty": 5,
+                "lessonIDs": [
+                  "aqaGCSEBio6.1.2",
+                  "aqaGCSEBio6.1.3",
+                  "aqaGCSEBio6.1.4"
+                ],
+                "questionID": "aqaGCSEBio_2_7_2_LRfjZWYJfP"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "Describe two other improvements that could be made to the sampling method to make the population estimate more valid.",
+                "markmax": 2,
+                "markscheme": "any two from:\n• Use more quadrats / increase sample size (1)\n• Place quadrats randomly (1)\nallow description of random placement e.g. use a random number generator to generate coordinates\nignore use larger quadrats",
+                "difficulty": 4,
+                "lessonIDs": [
+                  "aqaGCSEBio6.1.2",
+                  "aqaGCSEBio6.1.4"
+                ],
+                "questionID": "aqaGCSEBio_2_7_3_gm1kIM67vi"
+              }
+            ],
+            "validation_comment": "PASS",
+            "validation_reason": "Question tests required practical skills, cognitive demand and mark allocation are appropriate.",
+            "question_id": "aqaGCSEBio_2_7_kZV0P4DYcN"
+          },
+          {
+            "question_number": 8,
+            "question_stem": "**Figure 1** shows a simplified map of two valleys in the Alps. Mountain Avens are a species of plant found in both valleys.\n\nScientists believe the two populations were originally one, but were separated for thousands of years by a glacier. The plants in Valley A now have slightly different shaped leaves and flower colours compared to the plants in Valley B.",
+            "question_stem_diagram": "![diagram](https://firebasestorage.googleapis.com/v0/b/newcontent-a3a1e.firebasestorage.app/o/images%2Fananya%2Ffigure1_alps_valleys_plants.png?alt=media&token=9b89d065-d9f1-40a6-aebc-fff889f7d402)",
+            "items": [
+              {
+                "question_part": 1,
+                "question_type": "long_answer",
+                "question_text": "Explain how the population of Mountain Avens in Valley A could have become different from the population in Valley B.",
+                "markmax": 4,
+                "markscheme": "• (separate populations have) genetic variation / different alleles / there are mutations (1)\n• different environmental conditions / selection pressures in each valley (1)\n  allow a specific example e.g. different soil minerals / pollinators\n• (in each population) individuals with advantageous alleles/features survive and reproduce (1)\n  allow ‘survival of the fittest’\n• so these (advantageous) alleles are passed on to the next generation (1)",
+                "difficulty": 6,
+                "lessonIDs": [
+                  "aqaGCSEBio5.1.0",
+                  "aqaGCSEBio5.1.1",
+                  "aqaGCSEBio5.1.2",
+                  "aqaGCSEBio5.1.3",
+                  "aqaGCSEBio5.2.0",
+                  "aqaGCSEBio5.2.5"
+                ],
+                "questionID": "aqaGCSEBio_2_8_1_5SlrU3ozSA"
+              },
+              {
+                "question_part": 2,
+                "question_type": "long_answer",
+                "question_text": "Scientists now believe the two populations of Mountain Avens are two different species.\n\nDescribe the evidence scientists would need to collect to confirm this.",
+                "markmax": 2,
+                "markscheme": "any two from:\n• cross-pollinate plants from the two populations (1)\n• show that they do not produce fertile offspring (1)\n  allow cannot produce viable seeds\n• analysis of DNA / genes shows significant differences (1)",
+                "difficulty": 5,
+                "lessonIDs": [
+                  "aqaGCSEBio5.1.3",
+                  "aqaGCSEBio5.2.5",
+                  "aqaGCSEBio5.1.2"
+                ],
+                "questionID": "aqaGCSEBio_2_8_2_CjKqPYoeCG"
+              },
+              {
+                "question_part": 3,
+                "question_type": "long_answer",
+                "question_text": "A species of bird that acts as a pollinator for the Mountain Avens is now able to fly between the two valleys.\n\nSuggest what effect this could have on the future evolution of these plant populations.",
+                "markmax": 2,
+                "markscheme": "• gene flow occurs / pollen/genes/alleles are transferred between the populations (1)\n• this could lead to interbreeding, reducing differences between the populations (1)\n  allow it could slow down / reverse speciation",
+                "difficulty": 7,
+                "lessonIDs": [
+                  "aqaGCSEBio5.0.0",
+                  "aqaGCSEBio5.1.0",
+                  "aqaGCSEBio5.1.2",
+                  "aqaGCSEBio5.1.3",
+                  "aqaGCSEBio5.2.5",
+                  "aqaGCSEBio6.0.2"
+                ],
+                "questionID": "aqaGCSEBio_2_8_3_HnYVFmhCwO"
+              }
+            ],
+            "validation_comment": "REVISED_PASS",
+            "validation_reason": "The question assesses core syllabus topics with appropriate cognitive demand for Higher.",
+            "question_id": "aqaGCSEBio_2_8_YO3QZyJZWG"
+          }
+        ]
+      }
+    ]
+  }
+]

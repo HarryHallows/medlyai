@@ -1,0 +1,16 @@
+[project]
+name = "medlyai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.124.2",
+    "httpx>=0.28.1",
+    "sqlalchemy>=2.0.45",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
