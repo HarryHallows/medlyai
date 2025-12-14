@@ -8,6 +8,7 @@ dependencies = [
     "fastapi[standard]>=0.124.2",
     "httpx>=0.28.1",
     "sqlalchemy>=2.0.45",
+    "uvicorn>=0.38.0",
 ]
 
 [dependency-groups]
