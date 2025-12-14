@@ -1,3 +1,4 @@
+from datetime import UTC, datetime
 from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, Text
 from sqlalchemy.dialects.postgresql import JSONB
 
@@ -19,7 +20,7 @@ class Question(Base):
     source = Column(String) # exams / practices
     metadata_json = Column(JSONB)
 
-    created_at = Column(DateTime)
+    created_at = Column(DateTime, default=datetime.now(UTC))
 
 
 class Paper(Base):
@@ -37,7 +38,7 @@ class Paper(Base):
     source = Column(String)
     metadata_json = Column(JSONB)
 
-    created_at = Column(DateTime)
+    created_at = Column(DateTime, default=datetime.now(UTC))
     
 
 class PracticeBank(Base):
@@ -51,7 +52,7 @@ class PracticeBank(Base):
     source = Column(String)
     metadata_json = Column(JSONB)
 
-    created_at = Column(DateTime)
+    created_at = Column(DateTime, default=datetime.now(UTC))
 
 
 class QuestionAppearance(Base):
@@ -59,10 +60,10 @@ class QuestionAppearance(Base):
 
     id = Column(Integer, primary_key=True)
 
-    question_id = Column(ForeignKey("questions.id"), index=True)
+    question_id = Column(ForeignKey("questions.id", ondelete="CASCADE"), index=True)
 
-    paper_id = Column(ForeignKey("papers.id"), nullable=True, index=True)
-    practice_bank_id = Column(ForeignKey("practice_banks.id"), nullable=True, index=True)
+    paper_id = Column(ForeignKey("papers.id", ondelete="CASCADE"), nullable=True, index=True)
+    practice_bank_id = Column(ForeignKey("practice_banks.id", ondelete="CASCADE"), nullable=True, index=True)
 
     order_index = Column(Integer, nullable=True)
     part_label = Column(String, nullable=True)
@@ -70,4 +71,4 @@ class QuestionAppearance(Base):
     source = Column(String)
     metadata_json = Column(JSONB)
 
-    created_at = Column(DateTime)
+    created_at = Column(DateTime, default=datetime.now(UTC))

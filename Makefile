@@ -13,7 +13,7 @@ help:
 	@echo "==== Common Commands ===="
 	@echo ""
 	@echo "  make install      - Install or update Python dependencies"
-	@echo "  make run          - Build and start Docker containers"
+	@echo "  make run          - Build and start Docker containers & migrate"
 	@echo "  make stop         - Stop Docker containers"
 	@echo "  make restart      - Restart all Docker containers"
 	@echo "  make test         - Run tests using pytest"
@@ -83,11 +83,15 @@ api-health:
 # === Compose helpers ===
 run:
 	$(COMPOSE) up --build
+	$(COMPOSE) exec api python /app/scripts/migrate.py
+
+migrate:
+	$(COMPOSE) exec api python /app/scripts/migrate.py
 
 stop:
 	$(COMPOSE) down
 
-restart: stop run
+restart: clean run
 
 
 test:

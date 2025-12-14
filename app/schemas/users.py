@@ -1,11 +1,12 @@
 from datetime import datetime
+from typing import Any, Dict, Optional
 from pydantic import BaseModel, ConfigDict
 
 
 class UserBase(BaseModel):
-    email: str | None = None
-    name: str | None = None
-    metadata: dict | None = None
+    email: Optional[str] = None
+    name: Optional[str] = None
+    metadata: Optional[Dict[str, Any]] = None
 
 
 class UserRead(UserBase):

@@ -1,5 +1,6 @@
 from datetime import UTC, datetime
 from sqlalchemy import JSON, Boolean, Column, DateTime, Float, ForeignKey, Integer, String
+from sqlalchemy.sql import func
 from app.db import Base
 
 
@@ -11,7 +12,7 @@ class User(Base):
     name = Column(String)
     
     created_at = Column(DateTime, default=datetime.now(UTC))
-    updated_at = Column(DateTime, default=datetime.now(UTC))
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
 
 
 class UserAttempt(Base):
@@ -52,5 +53,5 @@ class UserQuestionStat(Base):
     last_attempt_at = Column(DateTime)
     mastery_score = Column(Float)
 
-    updated_at = Column(DateTime)
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
 

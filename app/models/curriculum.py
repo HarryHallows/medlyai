@@ -1,3 +1,5 @@
+from datetime import UTC, datetime
+
 from sqlalchemy import Column, DateTime, ForeignKey, Integer, String
 from sqlalchemy.dialects.postgresql import JSONB
 
@@ -5,7 +7,7 @@ from app.db import Base
 
 
 class Unit(Base):
-    __tablename__ = "Units"
+    __tablename__ = "units"
 
     id = Column(Integer, primary_key=True)
     unit_id = Column(String, unique=True, index=True)
@@ -14,22 +16,22 @@ class Unit(Base):
     source = Column(String)
     metadata_json = Column(JSONB)
 
-    created_at = Column(DateTime)
+    created_at = Column(DateTime, default=datetime.now(UTC))
 
 
-class Topics(Base):
+class Topic(Base):
     __tablename__ = "topics"
 
     id = Column(Integer, primary_key=True)
     topic_id = Column(String, unique=True, index=True)
 
-    unit_id = Column(ForeignKey("units.id"), idex=True)
+    unit_id = Column(ForeignKey("units.id"), index=True)
     title = Column(String)
 
     source = Column(String)
     metadata_json = Column(JSONB)
 
-    created_at = Column(DateTime)
+    created_at = Column(DateTime, default=datetime.now(UTC))
 
 
 class Lesson(Base):
@@ -45,5 +47,4 @@ class Lesson(Base):
     source = Column(String)
     metadata_json = Column(JSONB)
 
-    created_at = Column(DateTime)
-
+    created_at = Column(DateTime, default=datetime.now(UTC))
