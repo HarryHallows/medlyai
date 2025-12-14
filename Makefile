@@ -1,4 +1,4 @@
-.PHONY: help install run stop restart test db-shell db-logs db-check api-shell api-logs api-health
+.PHONY: help install run stop restart test clean db-shell db-logs db-check api-shell api-logs api-health
 .DEFAULT_GOAL := help
 
 # Use docker-compose file by default
@@ -17,6 +17,7 @@ help:
 	@echo "  make stop         - Stop Docker containers"
 	@echo "  make restart      - Restart all Docker containers"
 	@echo "  make test         - Run tests using pytest"
+	@echo "  make clean        - Cleans caches, docker containers and any log files"
 	@echo ""
 	@echo "==== Container Utilities ===="
 	@echo ""
@@ -32,6 +33,22 @@ help:
 install:
 	uv sync
 	uv lock
+
+clean:
+	@echo "Cleaning Python cache, Docker volumes, logs, and temp files..."
+	# Remove Python cache
+	find . -type d -name "__pycache__" -exec rm -rf {} +
+	find . -type d -name ".pytest_cache" -exec rm -rf {} +
+	find . -type d -name ".mypy_cache" -exec rm -rf {} +
+	find . -type f -name "*.pyc" -delete
+
+	# Remove Docker stopped containers and dangling volumes
+	docker-compose down -v --remove-orphans
+
+	# Remove temporary logs
+	find . -type f -name "*.log" -delete
+
+	@echo "Clean complete."
 
 #  === DB dommands ===
 

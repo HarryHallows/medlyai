@@ -1,0 +1,81 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Pipenv / poetry
+Pipfile.lock
+poetry.lock
+
+# pytype / mypy
+.pytype/
+.mypy_cache/
+.coverage
+.tox/
+.nox/
+
+# pytest / testing
+.cache/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# =========================
+# VSCode
+# =========================
+.vscode/
+*.code-workspace
+
+# =========================
+# Docker
+# =========================
+*.log
+*.pid
+docker-compose.override.yml
+docker-compose.override.*.yml
+**/Dockerfile.*
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# =========================
+# IDE / JetBrains
+# =========================
+.idea/
+*.iml
+
+# =========================
+# Misc
+# =========================
+*.sqlite3
+*.db
+*.db-journal
