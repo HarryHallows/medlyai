@@ -2,10 +2,10 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
 from app.db import SessionLocal, get_db
-from app.models import User
-from app.schemas import UserOut
+from app.models.users import User
+from app.schemas.users import UserOut
 
-router = APIRouter()
+router = APIRouter(prefix="/users", tags=["users"])
 
 
 @router.get("/{id}", response_model=UserOut)
@@ -16,3 +16,5 @@ def get_user(id: str, db: Session = Depends(get_db)):
     if not user:
         raise HTTPException(status_code=404, detail="User not found in database")
     return user
+
+
