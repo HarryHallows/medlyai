@@ -1,31 +1,40 @@
 import os
+from typing import Generator
 
-from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy import Engine, create_engine
+from sqlalchemy.orm import sessionmaker, Session, DeclarativeBase
 
-DATABASE_URL = os.getenv(
-    "DATABASE_URL", "postgresql://postgres:postgres@db:5432/postgres"
+
+class Base(DeclarativeBase):
+    pass
+
+
+def create_db_engine(db_url: str | None = None) -> Engine:
+    url = db_url or os.getenv(
+        "DATABASE_URL",
+        "postgresql://postgres:postgres@db:5432/postgres",
+    )
+
+    if not url:
+        raise RuntimeError("DATABASE_URL not set")
+
+    return create_engine(
+        url,
+        pool_pre_ping=True,
+    )
+
+
+engine: Engine = create_db_engine()
+
+SessionLocal = sessionmaker(
+    bind=engine,
+    autocommit=False,
+    autoflush=False,
 )
 
 
-# Use NullPool in short-lived containers/tests to avoid "too many connections"
-engine = create_engine(DATABASE_URL, pool_pre_ping=True)
-
-# Setting autocommit / autoflush to avoid inconsistent behaviour
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-
-
-Base = declarative_base()
-
-
-def get_db():
-    """
-    FastAPI dependency: yields a DB Session, then ensures that it's closed.
-    """
-
+def get_db() -> Generator[Session, None, None]:
     db = SessionLocal()
-
     try:
         yield db
     finally:

@@ -6,7 +6,6 @@ from app.db import get_db
 
 router = APIRouter(prefix="/health", tags=["health"])
 
-
 @router.get("/")
 def health(db: Session = Depends(get_db)):
     try:
