@@ -60,7 +60,7 @@ def user_activity(
             "max_score": attempt.max_score,
             "started_at": attempt.started_at,
             "submitted_at": attempt.submitted_at,
-            "metadata": dict(attempt.metadata_jsonb or {}),
+            "metadata_jsonb": dict(attempt.metadata_jsonb or {}),
         }
         for attempt in attempts
     ]

@@ -2,10 +2,11 @@
 
 > ## Incomplete Challenge Notes
 - Next steps if picked up later:
-  1. Add proper tests for endpoints.
-  2. Add proper custom error handling
-  3. Adjust some endpoints to be async
-  4. Separate out flattended files into independent modules
+  1. Finish test_users.py
+  2. Add proper test edge cases rather than success vs not found.
+  3. Add proper custom error handling
+  4. Adjust some endpoints to be async
+  5. Separate out flattended files into independent modules
 
 
 
