@@ -1,15 +1,12 @@
 # Takehome Test for MedlyAI Instructions.
 
 > ## Incomplete Challenge Notes
-- User migration works: 36 users inserted.
-- Curriculum migration works: 8 units, 25 topics, 279 lessons inserted.
-- Practice lessons migration works: 279 inserted.
-- Exam lessons partially migrated: 1 lesson inserted, 0 questions.
-- API endpoints not fully tested; some may fail due to type mismatch (User.id vs firebase_uid).
 - Next steps if picked up later:
-  1. Fix User.id vs firebase_uid type issue.
-  2. Add proper tests for endpoints.
-  3. Complete exam question migration.
+  1. Add proper tests for endpoints.
+  2. Add proper custom error handling
+  3. Adjust some endpoints to be async
+  4. Separate out flattended files into independent modules
+
 
 
 
