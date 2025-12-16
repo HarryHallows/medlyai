@@ -95,4 +95,4 @@ restart: clean run
 
 
 test:
-	pytest tests/ --maxfail=1 --disable-warnings -q
+	pytest tests/ --disable-warnings -q -vv

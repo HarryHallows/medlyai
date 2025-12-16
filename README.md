@@ -1,5 +1,15 @@
 # Takehome Test for MedlyAI Instructions.
 
+> ## Incomplete Challenge Notes
+- Next steps if picked up later:
+  1. Finish test_users.py
+  2. Add proper test edge cases rather than success vs not found.
+  3. Add proper custom error handling
+  4. Adjust some endpoints to be async
+  5. Separate out flattended files into independent modules
+
+
+
 
 ## Prerequisite
 
@@ -35,7 +45,7 @@ make run
 ##### `GET /health`
 
 ```bash
-curl -X GET http://localhost:8000/health
+curl -X GET http://localhost:8000/health | jq
 
 returns { "status": "ok", "db": "ok" }
 ```
@@ -48,7 +58,7 @@ returns { "status": "ok", "db": "ok" }
 
 ##### `GET /users/{id}`
 ```bash
-curl -X GET http://localhost:8000/users/<USER_ID>
+curl -X GET http://localhost:8000/users/<USER_ID> | jq
 
 
 response: {
@@ -64,14 +74,17 @@ response: {
 curl -s "http://localhost:8000/users/<USER_ID>/activity?page=1&size=20" | jq
 
 response: {
-  "user_id": 1,
-  "interactions": [
+  "user_id": "05IsdAyoSnekvovtyr2fC5cNOnF3",
+  "attempts": [
     {
-      "question_id": "q123",
-      "lesson_id": "lesson_01",
-      "canvas_text": "...",
-      "is_marked": true,
-      "timestamp": "2025-01-01T09:00:00"
+      "attempt_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "question_id": "Q123",
+      "attempt_type": "practice",
+      "score": 8,
+      "max_score": 10,
+      "started_at": "2025-12-15T14:23:12Z",
+      "submitted_at": "2025-12-15T14:25:30Z",
+      "metadata": {...}
     },
     ...
   ]
@@ -81,15 +94,19 @@ response: {
 ##### `PATCH /users/{id}`
 ```bash
 curl -s -X PATCH http://localhost:8000/users/<USER_ID> \
-     -H "Content-Type: application/json" \
-     -d '{"name": "New Name", "metadata": {"level": "advanced"}}' | jq
-
+  -H "Content-Type: application/json" \
+  -d '{
+        "firebase_uid": "<USER_ID>",
+        "metadata_jsonb": {"level": "advanced"}
+      }' | jq
 
 response: {
-  "id": 1,
-  "firebase_uid": "abc123",
-  "name": "New Name",
-  "metadata": {"level": "advanced"}
+  "firebase_uid": "<USER_ID>",
+  "metadata_jsonb": {
+    "level": "advanced"
+  },
+  "created_at": "2025-12-16T01:01:14.421315Z",
+  "updated_at": "2025-12-16T01:01:21.062704Z"
 }
 ```
 
@@ -97,38 +114,55 @@ response: {
 
 #### Curriculum / Assessments:
 
+**Sample LessonID** `aqaGCSEBio0.0.0`
+
 ##### `GET /lessons/{lesson_id}`
 ```bash
 curl -s http://localhost:8000/lessons/<LESSON_ID> | jq
 
-
 response: {
-  "lesson_id": "lesson_01",
-  "topic_id": "topic_01",
-  "unit_id": "unit_01",
-  "title": "Cell Biology",
-  "practice_items": [
-    {"question_id": "q123", "text": "What is a cell?"},
-    ...
+  "lesson_id": "aqaGCSEBio0.0.0",
+  "name": "Prokaryotic and Eukaryotic Cells",
+  "unit": "Cell biology",
+  "topic": "The Structure of Cells",
+  "items": [
+    {
+      "order_index": 0,
+      "item": {
+        "question_id": "aqaGCSEBio0.0.0_41G0QRPtmU",
+        "text": "All plant and animal cells are examples of eukaryotic cells. They share several fundamental features.\n\nDescribe how the genetic material is stored in a eukaryotic cell.",
+        "markscheme": "It is contained within a (membrane-bound) nucleus.\nIt is organised as chromosomes.",
+        "difficulty": 4,
+        "source_type": "practice",
+        "source_ref": "aqaGCSEBio0.0.0"
+      }
+    },...
   ]
 }
 ```
 
 ##### `GET /papers/{paper_id}`
+**Sample PaperID** `medlymockaqaGCSEBio_Sept_Mock1Higher`
+
 ```bash
 curl -s http://localhost:8000/papers/<PAPER_ID> | jq
 
-
-response: {
-  "paper_id": "paper_01",
-  "series": "2025",
-  "tier": "higher",
-  "questions": [
+{
+  "paper_id": "medlymockaqaGCSEBio_Sept_Mock1Higher",
+  "subject": "Biology",
+  "series": "Sept_Mock",
+  "tier": "Higher",
+  "items": [
     {
-      "question_id": "q123",
-      "text": "Explain mitosis",
-      "markscheme": "Cell division process...",
-      "difficulty": 3
+      "question_number": "1",
+      "item": {
+        "question_id": "aqaGCSEBio_1_1_1_EBc0BgD11T",
+        "text": "A pharmaceutical company is developing a new antiviral drug, ‘Virostop’, to treat a new strain of influenza.\n\n**Table 1** below shows data about the number of potential drug compounds tested during the development process.",
+        "markscheme": "drug was not effective (at treating the virus)\nallow it did not work",
+        "difficulty": 3,
+        "source_type": "exam",
+        "source_ref": "medlymockaqaGCSEBio_Sept_Mock1Higher"
+      }
     },
     ...
   ]
@@ -136,18 +170,20 @@ response: {
 ```
 
 ##### `GET /items/{question_id}`
+
+**Sample QuestionID** `aqaGCSEBio0.1.1_p644iKIKCD`
+
+
 ```bash
 curl -s http://localhost:8000/items/<QUESTION_ID> | jq
 
 
 response: {
-  "question_id": "q123",
-  "text": "Explain mitosis",
-  "markscheme": "Cell division process...",
-  "difficulty": 3,
-  "appearances": {
-    "lessons": ["lesson_01", "lesson_02"],
-    "papers": ["paper_01", "paper_05"]
-  }
+  "question_id": "aqaGCSEBio0.1.1_p644iKIKCD",
+  "text": "A student uses a microscope to view a prepared slide of onion epidermal cells.\n\nA key feature of a microscope is its resolution. \n\nDescribe what is meant by the term ‘resolution’.",
+  "markscheme": "The smallest distance between two points that can still be seen as separate.\nALLOW: the sharpness/clarity of the image.\nALLOW: the ability to distinguish between two points.",
+  "difficulty": 2,
+  "source_type": "practice",
+  "source_ref": "aqaGCSEBio0.0.11"
 }
 ```
